@@ -98,5 +98,10 @@ public class ProductDao implements ProductRepository{
 	}
 	
 	
+	public void addProduct(Product product) {
+		listOfProducts.add(product);
+	}
+	
+	
 
 }
